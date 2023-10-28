@@ -1,0 +1,25 @@
+
+
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+
+.search-btn .span,
+.header .btn { display: none; }
+
+.header {
+  position: relative;
+  padding-block: 25px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .wrapper {
+  display: flex;
+  gap: 15px;
+}
+
