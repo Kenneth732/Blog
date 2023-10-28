@@ -70,3 +70,22 @@
   font-weight: var(--fw-500);
   padding: 5px;
 }
+
+
+
+/*-----------------------------------*\
+  #SEARCH BAR
+\*-----------------------------------*/
+
+.search-bar {
+  background-color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  transform: translateY(calc(-100% - 2px));
+  z-index: 4;
+  transition: var(--transition-1);
+  visibility: hidden;
+}
