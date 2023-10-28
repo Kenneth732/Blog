@@ -36,3 +36,33 @@
 
 
 
+
+
+/*-----------------------------------*\
+  #RECOMMENDED POST
+\*-----------------------------------*/
+
+.section.recommended { border-block-end: none; }
+
+.recommended .grid-list {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.recommended .blog-card { margin-block-end: 5px; }
+
+
+
+
+
+/*-----------------------------------*\
+  #NEWSLETTER
+\*-----------------------------------*/
+
+.newsletter { padding-block-start: 40px; }
+
+.newsletter .section-title { margin-block-end: 25px; }
+
+
+
+
