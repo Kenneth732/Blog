@@ -106,7 +106,38 @@ function Home() {
                         </div>
                     </section>
 
- 
+                    <section class="section recent" aria-label="recent post">
+                        <div class="container">
+
+                            <div class="title-wrapper">
+
+                                <h2 class="h2 section-title">
+                                    See what we’ve <strong class="strong">written lately</strong>
+                                </h2>
+                                {latestBlog.map((blog) => (
+                                    <div class="top-author" key={blog.id}>
+                                        <ul class="avatar-list">
+
+                                            <li class="avatar-item">
+                                                <a href="#" class="avatar large img-holder" style={{ "--width": "100", "--height": "100" }} >
+                                                    <img src={blog.image} style={{ "width": "100", "height": "100" }} alt="top author" class="img-cover" />
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                        <span class="span">Meet our top authors</span>
+                                    </div>
+                                ))}
+
+                            </div>
+
+               
+
+                            <button class="btn">Load more</button>
+
+                        </div>
+                    </section>
 
 
 
