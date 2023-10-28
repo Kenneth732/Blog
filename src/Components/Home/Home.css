@@ -1,0 +1,18 @@
+/*-----------------------------------*\
+  #HERO
+\*-----------------------------------*/
+
+.newsletter-text {
+     display: none; 
+}
+
+.hero { 
+    padding-block-start: 10px; 
+}
+
+.hero-title { 
+    margin-block-end: 25px; 
+}
+
+
+
