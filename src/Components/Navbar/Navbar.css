@@ -23,3 +23,13 @@
   gap: 15px;
 }
 
+.search-btn { font-size: 28px; }
+
+.search-btn ion-icon { --ionicon-stroke-width: 50px; }
+
+.nav-toggle-btn .span {
+  background-color: var(--eerie-black);
+  width: 30px;
+  height: 3px;
+  transition: var(--transition-1);
+}
