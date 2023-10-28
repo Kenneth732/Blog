@@ -89,3 +89,19 @@
   transition: var(--transition-1);
   visibility: hidden;
 }
+
+.search-bar.active {
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.search-bar .input-field {
+  font-size: var(--fs-1);
+  font-weight: var(--fw-700);
+  line-height: 1.3;
+  padding-inline-end: 60px;
+}
+
+.search-bar .input-field::placeholder { color: var(--eerie-black); }
+
+.search-bar .input-field::-webkit-search-cancel-button { display: none; }
