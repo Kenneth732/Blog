@@ -52,6 +52,20 @@ function Navbar() {
             </header>
 
 
+            <div class="search-bar" data-search-bar>
+
+                <div class="input-wrapper">
+                    <input type="search" name="search" placeholder="Search" class="input-field" />
+
+                    <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                </div>
+
+                <p class="search-bar-text">Please enter at least 3 characters</p>
+
+            </div>
 
             <div class="overlay" data-overlay data-search-toggler></div>
 
