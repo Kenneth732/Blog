@@ -33,3 +33,27 @@
   height: 3px;
   transition: var(--transition-1);
 }
+
+.nav-toggle-btn .span:not(:last-child) { margin-block-end: 7px; }
+
+.nav-toggle-btn.active .span.two { opacity: 0; }
+
+.nav-toggle-btn.active .span.one { transform: translateY(10px) rotate(45deg); }
+
+.nav-toggle-btn.active .span.three { transform: translateY(-10px) rotate(-45deg); }
+
+.navbar {
+  background-color: var(--eerie-black);
+  color: var(--white);
+  position: absolute;
+  top: calc(100% - 20px);
+  right: 0;
+  min-width: 180px;
+  padding: 15px 10px;
+  border-radius: var(--radius-16);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-1);
+  z-index: 2;
+}
