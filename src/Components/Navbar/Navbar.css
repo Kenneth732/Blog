@@ -105,3 +105,19 @@
 .search-bar .input-field::placeholder { color: var(--eerie-black); }
 
 .search-bar .input-field::-webkit-search-cancel-button { display: none; }
+
+.search-close-btn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 45px;
+}
+
+.search-close-btn ion-icon { --ionicon-stroke-width: 20px; }
+
+.search-bar-text {
+  font-size: 1.4rem;
+  color: var(--eerie-black_80);
+  margin-block-start: 5px;
+}
